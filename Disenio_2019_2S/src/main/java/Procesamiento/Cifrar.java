@@ -33,6 +33,7 @@ public class Cifrar extends Procesar {
         MessageDigest sha = MessageDigest.getInstance("SHA-1");
          
         claveEncriptacion = sha.digest(claveEncriptacion);
+        
         claveEncriptacion = Arrays.copyOf(claveEncriptacion, 16);
          
         SecretKeySpec secretKey = new SecretKeySpec(claveEncriptacion, "AES");
@@ -45,7 +46,7 @@ public class Cifrar extends Procesar {
     
     
     
-public String encriptar(String datos, String claveSecreta) throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
+public String cifrado(String datos, String claveSecreta) throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
         SecretKeySpec secretKey;
       secretKey = this.crearLlave(claveSecreta);
          
@@ -59,7 +60,7 @@ public String encriptar(String datos, String claveSecreta) throws UnsupportedEnc
         return encriptado;
     }
 
-public String desencriptar(String datosEncriptados, String claveSecreta) throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
+public String decifrado(String datosEncriptados, String claveSecreta) throws UnsupportedEncodingException, NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
         SecretKeySpec secretKey = this.crearLlave(claveSecreta);
  
         Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5PADDING");

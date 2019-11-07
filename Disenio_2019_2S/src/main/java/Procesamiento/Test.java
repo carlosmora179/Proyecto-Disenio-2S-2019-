@@ -27,8 +27,8 @@ public class Test {
              
             Cifrar encriptador = new Cifrar();
              
-            String encriptado = encriptador.encriptar(datosOriginales, claveEncriptacion);
-            String desencriptado = encriptador.desencriptar(encriptado, claveEncriptacion);
+            String encriptado = encriptador.cifrado(datosOriginales, claveEncriptacion);
+            String desencriptado = encriptador.decifrado(encriptado, claveEncriptacion);
              
             System.out.println("Original: " + datosOriginales);
             System.out.println("Escriptado     : " + encriptado);
