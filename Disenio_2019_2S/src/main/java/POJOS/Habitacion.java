@@ -1,4 +1,4 @@
-package entity;
+package POJOS;
 // Generated Nov 2, 2019, 10:49:09 AM by Hibernate Tools 4.3.1
 
 
@@ -15,6 +15,7 @@ public class Habitacion  implements java.io.Serializable {
      private Hotel hotel;
      private TipoHabitacion tipoHabitacion;
      private String disponibilidad;
+     private Integer precio;
      private Set imagens = new HashSet(0);
      private Set reservacions = new HashSet(0);
 
@@ -22,15 +23,17 @@ public class Habitacion  implements java.io.Serializable {
     }
 
 	
-    public Habitacion(Hotel hotel, TipoHabitacion tipoHabitacion, String disponibilidad) {
+    public Habitacion(Hotel hotel, TipoHabitacion tipoHabitacion, String disponibilidad, Integer precio) {
         this.hotel = hotel;
         this.tipoHabitacion = tipoHabitacion;
         this.disponibilidad = disponibilidad;
+        this.precio = precio;
     }
-    public Habitacion(Hotel hotel, TipoHabitacion tipoHabitacion, String disponibilidad, Set imagens, Set reservacions) {
+    public Habitacion(Hotel hotel, TipoHabitacion tipoHabitacion, String disponibilidad, Integer precio, Set imagens, Set reservacions) {
        this.hotel = hotel;
        this.tipoHabitacion = tipoHabitacion;
        this.disponibilidad = disponibilidad;
+       this.precio = precio;
        this.imagens = imagens;
        this.reservacions = reservacions;
     }
@@ -63,6 +66,16 @@ public class Habitacion  implements java.io.Serializable {
     public void setDisponibilidad(String disponibilidad) {
         this.disponibilidad = disponibilidad;
     }
+        
+    public Integer getPrecio() {
+        return this.precio;
+    }
+    
+    public void setPrecio(Integer precio) {
+        this.precio = precio;
+    }
+    
+    
     public Set getImagens() {
         return this.imagens;
     }
@@ -77,9 +90,6 @@ public class Habitacion  implements java.io.Serializable {
     public void setReservacions(Set reservacions) {
         this.reservacions = reservacions;
     }
-
-
-
 
 }
 

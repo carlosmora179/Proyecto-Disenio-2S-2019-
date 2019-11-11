@@ -1,4 +1,4 @@
-package entity;
+package POJOS;
 // Generated Nov 2, 2019, 10:49:09 AM by Hibernate Tools 4.3.1
 
 
