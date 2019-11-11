@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Disenio_2019_2S" target="1.7" />
+      <module name="Disenio_2019_2S" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

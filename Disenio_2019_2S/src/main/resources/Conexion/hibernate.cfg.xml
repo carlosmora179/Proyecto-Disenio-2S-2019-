@@ -45,15 +45,15 @@ Contributor(s):
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">Danipani12</property>
-    <mapping resource="entity/Reservacion.hbm.xml"/>
-    <mapping resource="entity/TipoHabitacion.hbm.xml"/>
-    <mapping resource="entity/Hotel.hbm.xml"/>
-    <mapping resource="entity/Habitacion.hbm.xml"/>
-    <mapping resource="entity/Usuario.hbm.xml"/>
-    <mapping resource="entity/Imagen.hbm.xml"/>
-    <mapping resource="entity/Direccion.hbm.xml"/>
-    <mapping resource="entity/Tarjetas.hbm.xml"/>
-    <mapping resource="hibernate.hbm.xml"/>
+    <property name="hibernate.connection.password">1234</property>
+    <mapping resource="POJOS/Direccion.hbm.xml"/>
+    <mapping resource="POJOS/TipoHabitacion.hbm.xml"/>
+    <mapping resource="POJOS/Hotel.hbm.xml"/>
+    <mapping resource="POJOS/Habitacion.hbm.xml"/>
+    <mapping resource="POJOS/Usuario.hbm.xml"/>
+    <mapping resource="POJOS/Imagen.hbm.xml"/>
+    <mapping resource="POJOS/Direccion.hbm.xml"/>
+    <mapping resource="POJOS/Tarjetas.hbm.xml"/>
+    <mapping resource="Conexion/hibernate.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
