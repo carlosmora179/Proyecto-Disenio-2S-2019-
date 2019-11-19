@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a602d8d3-236f-4219-99de-64791dc81262" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/ConexionBD/Pool.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/ConexionBD/Pool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Direccion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Direccion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Habitacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Habitacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Imagen.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Imagen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Reservacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Reservacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Tarjetas.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Tarjetas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/TipoHabitacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/TipoHabitacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/POJOS/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/Procesamiento/Cifrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/Procesamiento/Cifrar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/Procesamiento/Validacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/web/WEB-INF/classes/Procesamiento/Validacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/ant-deploy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TqFb8YVdpBZFtI8tf0No4hwZpb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a602d8d3-236f-4219-99de-64791dc81262" name="Default Changelist" comment="" />
+      <created>1574179787768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574179787768</updated>
+      <workItem from="1574179789020" duration="2875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
