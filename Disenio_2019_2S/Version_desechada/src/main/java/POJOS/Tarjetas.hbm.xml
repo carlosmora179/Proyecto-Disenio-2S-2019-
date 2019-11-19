@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Nov 2, 2019, 10:49:10 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Tarjetas" table="Tarjetas" catalog="mydb" optimistic-lock="version">
+        <id name="idTarjetas" type="java.lang.Integer">
+            <column name="idTarjetas" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="usuario" class="entity.Usuario" fetch="select">
+            <column name="Usuario_idUsuario" not-null="true" />
+        </many-to-one>
+        <property name="numero" type="string">
+            <column name="Numero" length="45" not-null="true" />
+        </property>
+        <set name="reservacions" table="Reservacion" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="Tarjetas_idTarjetas" not-null="true" />
+            </key>
+            <one-to-many class="entity.Reservacion" />
+        </set>
+    </class>
+</hibernate-mapping>
