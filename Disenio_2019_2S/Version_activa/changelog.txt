@@ -1,0 +1,50 @@
+Todos los cambios realizados en este proyecto será documentado en este documento.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+
+##(Sp 9) [0.0.7] - 2019-11-20
+###Agregado
+-Implementación de la pagina reservar una habitación
+-Implementación de la pagina búsqueda 
+
+##(Sp 9) [0.0.6] - 2019-11-18
+###Agregado
+-Implementación de la página para mostrar las reservaciones realizadas
+-Implementación de mostrar las imágenes de las habitaciones por hotel
+##Arreglado
+-Se arregló un error que no permite mostrar las imágenes en la página de inicio
+
+##(Sp 9) [0.0.5] - 2019-11-16
+###Agregado
+-Implementación de la página para mostrar hoteles
+-Implementación de la funcionalidad para mostrar las imágenes de los hoteles
+###Arreglado
+- Se decide agregar el FrameWork Bootstrap para mejorar el manejo de las páginas en la capa vista
+
+##(Sp 9) [0.0.4] - 2019-11-14
+###Agregado
+-Implementación de la clase Jsonify
+-Implementación de la página Inicio
+
+##(Sp 8) [0.0.3] - 2019-11-12
+###Agregado
+-Implementación de la clase consulta
+###Arreglado
+-Se arregló una pulga de la clase pool que al momento de hacer una consulta no devuelve correctamente el resultset
+
+##(Sp 8) [0.0.2] - 2019-11-10
+###Agregado
+-Implementación de la clase pool
+-Implementación de las funcionalidades de la clase cifrado
+-Implementación de la clase Validacion
+###Borrado
+-Se eliminó la clase conexion, ya que no ofrece un pool de conexiones de 100 conexiones simultáneas
+
+##(Sp 8) [0.0.1] - 2019-11-7
+### Agregado
+-Se Implementó la base de datos
+-Se insertaron datos ficticios a la base de datos
+-Implementación de la clase conexion
+-Implementación de la capa vista (hibernate)
