@@ -4,12 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-##(Sp 9) [0.0.7] - 2019-11-20
+##(Sp 9) [0.0.7] - 2019-11-21
 ###Agregado
 -Implementación de la pagina reservar una habitación
--Implementación de la pagina búsqueda 
+-Implementación de la pagina búsqueda
 
-##(Sp 9) [0.0.6] - 2019-11-18
+##(Sp 9) [0.0.6] - 2019-11-20
 ###Agregado
 -Implementación de la página para mostrar las reservaciones realizadas
 -Implementación de mostrar las imágenes de las habitaciones por hotel

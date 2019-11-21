@@ -115,7 +115,7 @@ public class Pool {
     }
     
     public static void main(String[] args) {
-        String driver = "com.mysql.jdbc.Driver";
+        String driver = "com.mysql.cj.jdbc.Driver";
         String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
         String password = "pass123";

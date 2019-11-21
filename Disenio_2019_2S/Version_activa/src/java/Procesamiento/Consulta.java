@@ -24,10 +24,10 @@ public class Consulta {
     public String consultarHabitaciones(int nombreH){
         
     
-        String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3305/mydb";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
-        String password = "1234";
+        String password = "pass123";
         int minConnections = 100;
         int maxConnections = 101;
         JSONArray json = null;
@@ -70,10 +70,10 @@ public class Consulta {
     
     public String consultaHabitacion(int id){
         
-         String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3305/mydb";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
-        String password = "1234";
+        String password = "pass123";
         int minConnections = 100;
         int maxConnections = 101;
         JSONArray json = null;
@@ -109,10 +109,10 @@ public class Consulta {
         
         
         
-        String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3305/mydb";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
-        String password = "1234";
+        String password = "pass123";
         int minConnections = 100;
         int maxConnections = 101;
         JSONArray json = null;
@@ -149,10 +149,10 @@ public class Consulta {
     public String consultarHoteles(){
         
         
-        String driver = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://localhost:3305/mydb";
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/mydb";
         String user = "root";
-        String password = "1234";
+        String password = "pass123";
         int minConnections = 100;
         int maxConnections = 101;
         JSONArray json = null;
@@ -180,8 +180,27 @@ public class Consulta {
     
     return json.toString(); 
         
+    } 
+     public ResultSet conultaReservaciones(){
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String url = "jdbc:mysql://localhost:3306/mydb";
+        String user = "root";
+        String password = "pass123";
+        int minConnections = 100;
+        int maxConnections = 101;
         
+
+        Pool pool = new Pool(driver, user, password, url, minConnections, maxConnections);
+            
+            
+        pool.Connect();
+        ResultSet rs2 =Consulta(pool,"select h.idHotel, hab.idHabitacion, u.Nombre,h.Nombre,th.Tipo_habitacioncol,r.CheckIn,r.CheckOut from reservacion r,usuario u,hotel h,tipo_habitacion th, habitacion_has_reservacion hr, habitacion hab where r.Usuario_idUsuario = u.idUsuario AND r.idReservacion = hr.Reservacion_idReservacion AND hab.idHabitacion = hr.Habitacion_idHabitacion AND hab.Tipo_habitacion_idTipo_habitacion = th.idTipo_habitacion AND hab.Hotel_idHotel = h.idHotel");
+            
         
+        //pool.Disconnect();
+        return rs2;
     }
+        
+    
     
 }
